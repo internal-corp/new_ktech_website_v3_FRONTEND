@@ -3,6 +3,7 @@
     grid-template-columns: 2fr 8fr 3fr;
     place-items: center;
     height: 5rem;
+    background-color: #ebf2eb;
 }
 .logo{
     justify-self: end;
@@ -24,6 +25,11 @@
     list-style: none;
 }
 .navBar ul li .router-link-active{
+    text-decoration: none;
+    color: #525552;
+    font-size: 1rem;
+}
+.navBar ul li a{
     text-decoration: none;
     color: #525552;
     font-size: 1rem;

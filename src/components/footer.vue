@@ -10,7 +10,7 @@
         <ul>
            <li><router-link to="/">Acceuil</router-link></li>
           <li><router-link to="/services/">Sevives</router-link></li>
-          <li><router-link to="#">Country</router-link></li>
+          <li><router-link to="/country/">Country</router-link></li>
           <li><router-link to="/news/">News</router-link></li>
           <li><router-link to="/about/">About us</router-link></li>
         </ul>

@@ -29,6 +29,7 @@
     padding-left: 1.5rem;
     padding-right: 25%;
     box-shadow: 0px 2px 5px #e3e3e6 ;
+    color: #808080;
 }
 .email .input::after{
     content: 'Contact us';
@@ -218,6 +219,7 @@
     padding-left: 1.5rem;
     padding-right: 25%;
     box-shadow: 0px 2px 5px #e3e3e6 ;
+    color: #808080;
 }
 .ready .input::after{
     content: 'Contact us';
