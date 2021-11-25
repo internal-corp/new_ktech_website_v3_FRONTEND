@@ -237,3 +237,92 @@
     place-items: center;
     color: #c2c0ef;
 }
+
+
+
+/*mobile part*/
+
+@media (max-width:750px){
+    .headerH{
+        grid-template-rows: auto 1fr;
+        place-items: center;
+        grid-template-columns:1fr;
+    }
+    .start{
+        grid-template-rows: 1fr auto;
+        margin-bottom: 2rem;
+    }
+    .start h1{
+        padding-right: .5rem;
+        font-size: 210%;
+    }
+    .certifacat{
+        justify-self:initial;
+        margin: 0rem;
+        margin-bottom: 2rem;
+    }
+    .email .input{
+        width: 80%;
+    }
+    .work{
+        grid-template-rows: auto 1fr;
+        grid-template-columns: 1fr;
+    }
+    .work .description p{
+        padding-right: .5rem;
+    }
+    .quick{
+        grid-template-columns: 1fr;
+        grid-template-rows: auto 1fr;
+        margin-bottom: 2rem;
+    }
+    .quick .image img{
+        padding-left: 0rem;
+    }
+    .quick .image{
+        display: grid;
+        place-items: center;
+    }
+    .quicktext p{
+        padding-left: 15%;
+        padding-right: 20%;
+    }
+    .quicktext h1{
+        padding-left: 15%;
+        padding-right: 10%;
+    }
+    .covering .image img{
+        padding-left: 0rem;
+    }
+    .covering .image{
+        display: grid;
+        place-items: center;
+    }
+    .covering{
+        grid-template-columns: 1fr;
+        grid-template-rows: auto 1fr;
+        margin-top: 0;
+    }
+    .coveringText .see{
+        width:9rem;
+    }
+    .elements{
+        margin-top: 4rem;
+        grid-template-columns:1fr;
+        grid-template-rows: repeat(3,1fr);
+    }
+    .ready{
+        margin-top: 3.5rem;
+        padding-bottom: 4rem;
+        padding-left: 10%;
+        display: grid;
+        grid-template-columns:1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+    .ready h1{
+        margin-bottom: 1.5rem;
+    }
+    .ready .input{
+        width: 80%;
+    }
+}

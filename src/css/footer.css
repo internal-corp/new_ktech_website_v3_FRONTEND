@@ -68,3 +68,34 @@
     object-fit: cover;
     width: 30px;
 }
+
+
+/*mobile part*/
+
+
+@media (max-width:750px){
+    .footer{
+        grid-template-columns:1fr;
+        grid-template-rows: repeat(3,1fr);
+        height: 17rem;
+    }
+    .navBar{
+        justify-self:initial;
+        margin-right:0;
+    }
+    .navBar ul{
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(5,1fr);
+        grid-row-gap: 1rem;
+    }
+    .navBar ul li{
+        text-align: center;
+    }
+    .linkedIn{
+        justify-self: initial;
+        padding-right: 0;
+    }
+    .di p{
+        z-index:0;
+    }
+}

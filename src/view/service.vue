@@ -18,6 +18,9 @@
         </div>
         <div class="second">
             <div class="rf">
+                <div v-if="mobile" class="image">
+                    <img src="../assets/images/rf.png" alt="rf">
+                </div>
                 <div class="text">
                     <h1>RF Type Approval</h1>
                     <P>
@@ -29,11 +32,14 @@
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, sequi
                     </P>
                 </div>
-                <div class="image">
+                <div v-if="!mobile" class="image">
                     <img src="../assets/images/rf.png" alt="rf">
                 </div>
             </div>
             <div class="safety">
+                <div v-if="mobile" class="image">
+                    <img src="../assets/images/energy.png" alt="energy">
+                </div>
                 <div class="text">
                     <h1>Safety & Energy Efficien</h1>
                     <P>
@@ -45,7 +51,7 @@
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, sequi!
                     </P>
                 </div>
-                <div class="image">
+                <div v-if="!mobile" class="image">
                     <img src="../assets/images/energy.png" alt="energy">
                 </div>
             </div>
@@ -71,7 +77,10 @@
 
 <script>
 export default {
-    name:'service'
+    name:'service',
+    props:{
+        mobile:Boolean,
+    }
 }
 </script>
 

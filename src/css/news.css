@@ -114,6 +114,7 @@
 .ready h1{
     font-size: 1.5rem;
     align-self: center;
+    color: #1a14c6;
 }
 .ready .input{
     width: 70%;
@@ -145,4 +146,38 @@
     display: grid;
     place-items: center;
     color: #c2c0ef;
+}
+
+
+
+
+/*mobile part*/
+@media (max-width:750px){
+    .first{
+        grid-template-columns:1fr;
+    }    
+    .first .input{
+        width: 85%;
+    }
+    .first .beInfo h1{
+        font-size: 180%;
+    }
+    .first .beInfo h1:last-child{
+        font-size: 120%;
+    }
+    .second{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .ready{
+        grid-template-columns:1fr;
+    }
+    .ready .input{
+        margin-top: 1rem;
+        width: 78%;
+    }
+}
+@media (min-width:530px)and(max-width:750px){
+    .second{
+        grid-template-columns: repeat(2,1fr);
+    }
 }

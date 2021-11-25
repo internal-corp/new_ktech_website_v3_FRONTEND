@@ -127,3 +127,72 @@
     place-items: center;
     color: #c2c0ef;
 }
+
+
+
+/*mobile part*/
+
+@media (max-width:750px){
+    .title{
+        width: 90%;
+    }
+    .title h1{
+        font-size: 180%;
+    }
+    .vision{
+        grid-template-columns: 1fr 2fr;
+    }
+    .business{
+        grid-template-columns: 1fr 2fr;
+    }
+    .vision p,.business p{
+        padding-right: 7%;
+        margin-left: 1rem;
+    }
+    .vision h1{
+        font-size: 130%;
+    }
+    .business h1{
+        font-size: 130%;
+    }
+    .teams .text{
+        grid-template-columns: 1fr 2fr;
+    }
+    .teams .text h1{
+        font-size: 130%;
+    }
+    .teams .text p{
+        padding-right: 7%;
+        margin-left: 1rem;
+    }
+    .team{
+        grid-template-columns: 1fr;
+    }
+    .guys .image{
+        margin-top: 1.5rem;
+    }
+    .ready{
+        grid-template-columns: 1fr;
+    }
+    .ready .input{
+        width: 80%;
+        margin-top: 1rem;
+    }
+}
+@media (max-width:321px){
+    .vision{
+        grid-template-columns: 1fr;
+    }
+    .business{
+        grid-template-columns: 1fr;
+    }
+    .vision p,.business p{
+        margin-top: 1.5rem;
+    }
+    .teams .text{
+        grid-template-columns: 1fr;
+    }
+    .teams .text p{
+        margin-top: 1rem;
+    }
+}

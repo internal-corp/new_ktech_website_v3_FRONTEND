@@ -75,3 +75,28 @@
     place-items: center;
     color: #c2c0ef;
 }
+
+
+
+/*mobile part*/
+
+@media (max-width:750px){
+    .first{
+        grid-template-columns:1fr;
+    }
+    .first .image{
+        place-items: center;
+        display: grid;
+        margin-top: 1.5rem;
+    }
+    .first .text h1{
+        font-size: 200%;
+    }
+    /*second part*/
+    .ready{
+        grid-template-columns:1fr;
+    }
+    .ready .input{
+        margin-top: 1rem;
+    }
+}

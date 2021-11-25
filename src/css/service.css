@@ -155,3 +155,40 @@
     place-items: center;
     color: #c2c0ef;
 }
+
+
+
+/*mobile part*/
+@media (max-width:750px){
+    .first{
+        grid-template-columns: 1fr;
+    }
+    .first .emc{
+        padding-bottom: 2.5rem;
+    }
+    .rf{
+        grid-template-columns: 1fr;
+    }
+    .rf .image{
+        padding-bottom: 0;
+    }
+    .safety{
+        grid-template-columns: 1fr;
+    }
+    .safety .text{
+        margin-top: 2rem;
+    }
+    .advantage{
+        grid-template-columns: 1fr;
+    }
+    .advantage ul{
+        justify-self: initial;
+    }
+    .query{
+        grid-template-columns: 1fr;
+    }
+    .query .input{
+        justify-self: start;
+        width: 85%;
+    }
+}

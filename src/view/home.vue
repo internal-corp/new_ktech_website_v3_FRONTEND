@@ -56,6 +56,9 @@
         </div>
       </div>
       <div class="covering">
+        <div v-if="mobile" class="image">
+          <img src="../assets/images/world-animated.png" alt="world">
+        </div>
         <div class="coveringText">
           <h1>Covering more than</h1>
           <h1>180 counties</h1>
@@ -68,7 +71,7 @@
             <span>See full covered zone</span>
           </div>
         </div>
-        <div class="image">
+        <div v-if="!mobile" class="image">
           <img src="../assets/images/world-animated.png" alt="world">
         </div>
       </div>
@@ -122,7 +125,10 @@
 
 <script>
 export default {
-    name:'home'
+    name:'home',
+    props:{
+      mobile:Boolean,
+    }
 }
 </script>
 
