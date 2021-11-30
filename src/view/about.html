@@ -1,4 +1,45 @@
-<template>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/regularHeader.css">
+  <link rel="stylesheet" href="../css/about.css">
+  <title>About</title>
+</head>
+
+<body>
+  <div class="regularHeader">
+    <div class="logo">
+      <img src="../assets/images/logo@2x.png" alt="logo">
+    </div>
+    <div class="navBar">
+      <ul>
+        <li>
+          <router-link to="/">Acceuil</router-link>
+        </li>
+        <li>
+          <router-link to="/services/">Sevives</router-link>
+        </li>
+        <li>
+          <router-link to="/country/">Country</router-link>
+        </li>
+        <li>
+          <router-link to="/news/">News</router-link>
+        </li>
+        <li>
+          <router-link to="/about/">About us</router-link>
+        </li>
+      </ul>
+    </div>
+    <div class="suscribe">
+      <div class="suscribeButton">
+        <span>Suscribe Newsletter</span>
+      </div>
+    </div>
+  </div>
   <div class="about">
     <div class="first">
       <div class="title">
@@ -63,14 +104,7 @@
       </div>
     </div>
   </div>
-</template>
 
-<script>
-export default {
-    name:'about'
-}
-</script>
+</body>
 
-<style src="../css/about.css" scoped>
-
-</style>
+</html>
