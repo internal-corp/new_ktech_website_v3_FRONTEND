@@ -5,6 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/main.css">
     <title>Home page</title>
 </head>
 
@@ -14,7 +17,8 @@
             <!-- Navigation bar -->
             <nav class="navbar ">
                 <div class="container">
-                    <a href="#"><img src="assets/logo.png" class="brand-logo" alt="Konan Technologies Logo"></a>
+                    <a href="#"><img src="assets/images/logo@2x.png" class="brand-logo"
+                            alt="Konan Technologies Logo"></a>
                     <div class="main-links">
                         <ul>
                             <li><a href="#">Home</a></li>
@@ -24,7 +28,7 @@
                             <li><a href="#">About us</a></li>
                         </ul>
                     </div>
-                    <div class="newsletter-button">
+                    <div>
                         <input type="button" class="newsletter-subscribe-button button" value="Subcribe Newsletter">
                     </div>
                 </div>
@@ -34,10 +38,15 @@
                 <div class="container">
                     <div class="captions-word">
                         <h1 class="title">Start make your product get access to the market.</h1>
-                        <div class="showcase-actions">
+                        <div class="showcase-actions subscribe-form">
+                            <p class="caption">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur,
+                                blanditiis.</p>
                             <form>
-                                <input type="email" name="email">
-                                <input type="submit" name="submit" value="Contact us">
+                                <div class="white-rounded-div">
+                                    <input type="email" name="email" placeholder="Enter your email address"
+                                        class="email-field">
+                                </div>
+                                <input type="submit" name="submit" class="button subscribe-button" value="Contact us">
                             </form>
                         </div>
                     </div>
@@ -52,7 +61,7 @@
         <section class="who-we-work-with">
             <div class="container">
                 <div class="text-box">
-                    <h3>Who we work with</h3>
+                    <h3 class="subtitle white">Who we work with</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non eum vitae eligendi exercitationem
                         laudantium laborum incidunt rerum aut voluptates deleniti eveniet modi numquam asperiores quam,
                         tenetur impedit sint necessitatibus odit nesciunt dolorem voluptas maiores ab assumenda dolore.
@@ -66,6 +75,9 @@
                         <a href="#" class="button">About us</a>
                     </div>
                 </div>
+                <div class="images">
+                    <img src="assets/images/brands.png"  alt="">
+                </div>
             </div>
         </section>
         <!-- Features  -->
@@ -73,54 +85,59 @@
             <div class="container">
                 <div class="feature feature1">
                     <div class="image">
-                        <img src="assets/images/circle@2x.png" class="circle" alt="">
+                        <img src="assets/images/circle@2x.png" class="feature-image" alt="">
                     </div>
                     <div class="info-box">
-                        <h3>Quick process Time</h3>
+                        <h3 class="subtitle ">Quick process Time</h3>
                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis alias pariatur
                             aspernatur incidunt quisquam harum quidem vitae fugiat at unde inventore, repellendus animi
+                            obcaecati exercitationem quisquam harum quidem vitae fugiat at unde inventore, repellendus animi
                             obcaecati exercitationem!</p>
                     </div>
                 </div>
-                <div class="feature feature1">
+                <div class="feature feature2">
                     <div class="info-box">
-                        <h3>Covering more than 180 countries</h3>
+                        <h3 class="subtitle">Covering more than <br> 180 countries</h3>
                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis alias pariatur
                             aspernatur incidunt quisquam harum quidem vitae fugiat at unde inventore, repellendus animi
                             obcaecati exercitationem!</p>
-                        <a href="#" class="button covered-zone-link">See full covered zone</a>
+                        <div class="actions">
+                            <a href="#" class="button covered-zone-link">See full covered zone</a>
+                        </div>
                     </div>
                     <div class="image">
-                        <img src="assets/images/circle@2x.png" class="circle" alt="">
+                        <img src="assets/images/world-animated.png" class="feature-image" alt="">
                     </div>
                 </div>
             </div>
         </section>
         <!-- Services offered -->
         <section class="services">
+            <div class="container service-header">
+                <h3 class="subtitle blue">We offers service which match your need</h3>
+            </div>
             <div class="container">
-
                 <div class="service-item">
                     <div class="image-box">
-
+                        <img src="assets/images/server-1.png" class="rounded-image" alt="">
                     </div>
-                    <h5>RF Type Approval</h5>
+                    <h5 class="small-title">RF Type Approval</h5>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, cum! Nisi dolores eveniet
                         repellendus veritatis voluptate nam exercitationem non aliquid.</p>
                 </div>
                 <div class="service-item">
                     <div class="image-box">
-
+                        <img src="assets/images/rf.png" class="rounded-image" alt="">
                     </div>
-                    <h5>RF Type Approval</h5>
+                    <h5 class="small-title">RF Type Approval</h5>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, cum! Nisi dolores eveniet
                         repellendus veritatis voluptate nam exercitationem non aliquid.</p>
                 </div>
                 <div class="service-item">
                     <div class="image-box">
-
+                            <img src="assets/images/energy.png" class="rounded-image" alt="">
                     </div>
-                    <h5>RF Type Approval</h5>
+                    <h5 class="small-title">RF Type Approval</h5>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, cum! Nisi dolores eveniet
                         repellendus veritatis voluptate nam exercitationem non aliquid.</p>
                 </div>
@@ -129,19 +146,23 @@
         <!-- Contact part  -->
         <section class="contact">
             <div class="container">
-                <h3>Ready to get started ?</h3>
+                    <h3 class="subtitle blue">Ready to get started ?</h3>
                 <div class="contact-box">
                     <form>
-                        <input type="email" name="email">
-                        <input type="submit" name="submit" value="Contact us button" id="">
+                        <div class="white-rounded-div">
+                            <input type="email" name="email" placeholder="Enter your email address"
+                                class="email-field">
+                        </div>
+                        <input type="submit" name="submit" class="button subscribe-button" value="Contact us">
                     </form>
-                </div>
+            </div>
             </div>
         </section>
         <footer class="footer">
             <div class="container">
                 <div class="brand-name">
                     <h5>Konan Technologies</h5>
+                    <p class="slogan">Don't even try the rest, just experience the best</p>
                 </div>
                 <div class="actions">
                     <div class="links">

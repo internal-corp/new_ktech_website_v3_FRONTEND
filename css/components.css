@@ -1,0 +1,214 @@
+/* [Container] for limiting item from the border */
+.container {
+    width: 80%;
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+/* base color  
+    black: #000000bd / #707471
+    blue : #1A14C6
+    shadow-color: #6e6e6e8f 
+
+*/
+
+.white {
+    color: white;
+}
+
+.blue {
+    color: #1A14C6;
+}
+/* Navbar  */
+.navbar {
+    padding: 1rem 0;
+    background-color: transparent;
+}
+
+.brand-logo {
+    width: 150px;
+    height: auto;
+}
+
+.navbar .container {
+    display: grid;
+    grid-template-columns: minmax(75px,150px) auto minmax(150px,200px);
+}
+
+.navbar .main-links {
+    margin-left: 6rem;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.navbar .main-links ul{
+    display: flex;
+    list-style-type: none;
+}
+
+.navbar li {
+    margin-right: 1.3rem;
+}
+.navbar ul li a{
+    color: #000000bd;
+    font-weight: 400;
+    transition: color 300ms ease-in-out;
+}
+
+.navbar ul li a:hover {
+    color: #1A14C6;
+}
+
+/* Button  */
+
+/* Newsletter Button  */
+.button, .newsletter-button input{
+    border: none;
+    padding: .7rem 1.5rem;
+    border-radius: 1.5rem;
+    color: white;
+    background-color: #1A14C6;
+    box-shadow: 0 2px 6px #6e6e6e8f;
+}
+
+
+/* title  */
+.title,.subtitle,.small-title {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* title  */
+.title {
+    color: #1A14C6;
+    font-size: 5.5rem;
+}
+
+/* subtitle  */
+.subtitle {
+    font-size: 2.5rem;
+}
+.small-title {
+    font-size: 1.8rem;
+}
+.caption {
+    color: #707471;
+    font-weight: 300;
+    font-size: 1rem;
+}
+
+/* newsletter subscription form  */
+
+.subscribe-form form {
+    display: flex;
+}
+
+form {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.white-rounded-div {
+    width: 50%;
+    background-color: white;
+    padding:.3rem 1.5rem;
+    border-radius: 50px;
+    box-shadow: 0 10px 6px #b7b1b141;
+}
+.white-rounded-div .email-field{
+    padding: 1rem .5rem;
+    width: 90%;
+    border: none;
+    outline: none;
+}
+
+.subscribe-button {
+    position: absolute;
+    left: 40%;
+    height: 30px;
+    padding: 0 1rem;
+}
+
+/* For getting rounded image  */
+.rounded-image {
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+}
+
+/* footer  */
+.footer .container{
+    display: grid;
+    grid-template-columns: minmax(120px,25%) auto;
+}
+
+.footer .actions  {
+    display: flex;
+}
+.footer .actions .links ul {
+    list-style-type: none;
+    display: flex;
+}
+.footer .links ul li {
+    margin-right: .8rem;
+}
+
+.contact {
+    background-color: #b7b1b141;
+    padding: 4rem 0;
+}
+
+.contact .container {
+    width: 70%;
+    margin: 0 auto;
+    margin-left: 25rem; /* TODO not sure about that  */
+    display: grid;
+    grid-template-columns: minmax(150px,40%) auto;
+}
+
+
+.footer {
+    padding-top: 3rem;
+    background-image: url(../assets/images/elispe.png), linear-gradient(#1A14C6, #1A14C6);
+    background-position: 10% -20%, center;
+    background-size: 25%, cover;
+    background-repeat: no-repeat, no-repeat;
+    padding-bottom: 3rem;
+}
+
+.footer .container {
+    display: grid;
+    grid-template-columns: minmax(200px,40%) auto;
+    place-items: center;
+}
+
+.footer .brand-name h5{
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.social-link {
+    width: 25px;
+    height: auto;
+}
+
+.social-links ul {
+    list-style-type: none;
+}
+
+.footer .actions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer .actions a{
+    color: white;
+}
+
+
+.slogan {
+    font-style: italic;
+}
