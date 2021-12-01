@@ -2,3 +2,84 @@
     background-image: none;
     background-color: #F3F3F3;
 }
+
+
+h1.title {
+    margin-bottom: 4rem;
+    text-align: center;
+}
+
+ .vision-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+.vision-item .subtitle-box {
+    flex-basis: 35%;
+    color: #1A14C6;
+} 
+
+.subtitle-box .subtitle {
+    font-size: 1.9rem;
+}
+
+.vision-item .description-box {
+    flex-basis: 55%;
+    text-align: left;
+    color: #707471;
+}
+.description-box p {
+    font-weight: 350;
+    line-height: 1.8rem;
+}
+
+section.image {
+    max-height: 320px;
+    overflow: hidden;
+}
+
+section.image img {
+    width: 100%;
+    height: auto;
+    position: relative;
+    top: -10rem;
+}
+
+.about-us-items {
+    padding: 3rem 0;
+    background-color: #F3F3F3;
+}
+
+.team-members {
+    padding-top: 5rem;
+}
+
+.team-members .container {
+    padding: 3rem 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,30%));
+    grid-gap: 2rem;
+    place-content: center;
+}
+
+
+.team-members >p:first-of-type {
+    text-align: center;
+    font-weight: 100;
+    color:#707471;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.team-members h5 {
+    margin-bottom: 0;
+}
+
+.team-members p {
+    padding: 0;
+}
+
+.team-members .service-item {
+    flex-basis: 30%;
+}
