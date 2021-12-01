@@ -33,6 +33,7 @@
     text-align: center;
     padding: 1rem;
     box-shadow: 0 2px 10px rgba(128, 128, 128, 0.13);
+    cursor: pointer;
 }
 .news-item-title {
     font-size: 1.3rem;
