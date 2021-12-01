@@ -1,0 +1,22 @@
+.header {
+    background-image: none;
+    background-color: #F3F3F3;
+}
+
+.blue {
+    margin-top:1.5rem;
+    font-weight: 300;
+}
+
+#country-page form {
+    margin-top: 5rem;
+}
+
+.covered-zone .subtitle{
+    margin:3rem 0 3.5rem 0;
+    text-align: center;
+}
+
+.contact .container {
+    grid-template-columns: minmax(200px,55%) auto;
+}
