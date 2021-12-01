@@ -5,6 +5,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/components.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/services.css">
     <title>Services</title>
 </head>
 
@@ -14,31 +18,29 @@
             <!-- Navigation bar -->
             <nav class="navbar ">
                 <div class="container">
-                    <a href="#"><img src="assets/logo.png" class="brand-logo" alt="Konan Technologies Logo"></a>
+                    <a href="#"><img src="../assets/images/logo@2x.png" class="brand-logo"
+                            alt="Konan Technologies Logo"></a>
                     <div class="main-links">
                         <ul>
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">Services</a></li>
-                            <li><a href="#">Country</a></li>
-                            <li><a href="#">News</a></li>
-                            <li><a href="#">About us</a></li>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="pages/services.html">Services</a></li>
+                            <li><a href="pages/covered-zone.html">Country</a></li>
+                            <li><a href="pages/news.html">News</a></li>
+                            <li><a href="pages/about-us.html">About us</a></li>
                         </ul>
                     </div>
-                    <div >
+                    <div>
                         <input type="button" class="newsletter-subscribe-button button" value="Subcribe Newsletter">
                     </div>
                 </div>
             </nav>
         </header>
-        <!-- Services part  -->
-        <section class="services">
+        <section class="services-1">
             <div class="container">
                 <div class="service-item service1">
-                    <div class="image-box">
-                        <img src="../assets/images/server-1@2x.png" alt="Server Image">
-                    </div>
+                        <img src="../assets/images/server-1@2x.png" class="service-image" alt="Server Image">
                     <div class="description-box">
-                        <h1 class="title title-white">EMC Certification</h1>
+                        <h1 class="subtitle">EMC Certification</h1>
                         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem vel a necessitatibus
                             quae pariatur nostrum ipsam ducimus sit! Sunt, fuga eaque veniam facilis atque
                             veritatis optio enim dicta? Eum, voluptatum soluta laborum eaque aliquid magnam.</p>
@@ -47,12 +49,15 @@
                             veritatis optio enim dicta? Eum, voluptatum soluta laborum eaque aliquid magnam.</p>
                     </div>
                 </div>
+            </div>
+        </section>
+        <!-- Services part  -->
+        <section class="services">
+            <div class="container">
                 <div class="service-item service2">
-                    <div class="image-box">
-                        <img src="../assets/images/rf.png" alt="Server Image">
-                    </div>
+                        <img src="../assets/images/server-1@2x.png" class="service-image" alt="Server Image">
                     <div class="description-box">
-                        <h1 class="title title-white">EMC Certification</h1>
+                        <h1 class="subtitle white">EMC Certification</h1>
                         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem vel a necessitatibus
                             quae pariatur nostrum ipsam ducimus sit! Sunt, fuga eaque veniam facilis atque
                             veritatis optio enim dicta? Eum, voluptatum soluta laborum eaque aliquid magnam.</p>
@@ -62,11 +67,21 @@
                     </div>
                 </div>
                 <div class="service-item service3">
-                    <div class="image-box">
-                        <img src="../assets/images/energy@2x.png" alt="Server Image">
-                    </div>
+                        <img src="../assets/images/rf.png" class="service-image" alt="Server Image">
                     <div class="description-box">
-                        <h1 class="title title-white">EMC Certification</h1>
+                        <h1 class="subtitle bleu">RF Type Approval</h1>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem vel a necessitatibus
+                            quae pariatur nostrum ipsam ducimus sit! Sunt, fuga eaque veniam facilis atque
+                            veritatis optio enim dicta? Eum, voluptatum soluta laborum eaque aliquid magnam.</p>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem vel a necessitatibus
+                            quae pariatur nostrum ipsam ducimus sit! Sunt, fuga eaque veniam facilis atque
+                            veritatis optio enim dicta? Eum, voluptatum soluta laborum eaque aliquid magnam.</p>
+                    </div>
+                </div>
+                <div class="service-item service4">
+                        <img src="../assets/images/energy@2x.png" class="service-image" alt="Server Image">
+                    <div class="description-box">
+                        <h1 class="subtitle white">EMC Certification</h1>
                         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem vel a necessitatibus
                             quae pariatur nostrum ipsam ducimus sit! Sunt, fuga eaque veniam facilis atque
                             veritatis optio enim dicta? Eum, voluptatum soluta laborum eaque aliquid magnam.</p>
@@ -79,31 +94,35 @@
         </section>
         <section class="advantages">
             <div class="container">
-                <h1>Our Advantage</h1>
-                <div class="advantages">
+                <h1 class="subtitle">Our Advantages</h1>
+                <div class="advantages-list">
                     <ul>
-                        <li>Short processing time</li>
-                        <li>Weekly project update</li>
-                        <li>Reasonable price</li>
+                        <li>- Short processing time</li>
+                        <li>- Weekly project update</li>
+                        <li>- Reasonable price</li>
                     </ul>
                 </div>
             </div>
         </section>
         <section class="contact">
             <div class="container">
-                <h3>Inquiries about your certificat ?</h3>
+                    <h3 class="subtitle blue">Inquiries about your <br> certificat ?</h3>
                 <div class="contact-box">
                     <form>
-                        <input type="email" name="email">
-                        <input type="submit" name="submit" value="Contact us button" id="">
+                        <div class="white-rounded-div">
+                            <input type="email" name="email" placeholder="Enter your email address"
+                                class="email-field">
+                        </div>
+                        <input type="submit" name="submit" class="button subscribe-button" value="Contact us">
                     </form>
-                </div>
+            </div>
             </div>
         </section>
         <footer class="footer">
             <div class="container">
                 <div class="brand-name">
                     <h5>Konan Technologies</h5>
+                    <p class="slogan">Don't even try the rest, just experience the best</p>
                 </div>
                 <div class="actions">
                     <div class="links">
@@ -112,12 +131,12 @@
                             <li><a href="#">Services</a></li>
                             <li><a href="#">Country</a></li>
                             <li><a href="#">News</a></li>
-                            <li><a href="#">About us</a></li>
+                            <li><a href="./src/view/about.html">About us</a></li>
                         </ul>
                     </div>
                     <div class="social-links">
                         <ul>
-                            <li><a href="#"><img src="assets/images/linkedind@2x.png" class="social-link"
+                            <li><a href="#"><img src="../assets/images/linkedind@2x.png" class="social-link"
                                         alt="Link to Konan Technologies Linkedin"></a></li>
                         </ul>
                     </div>

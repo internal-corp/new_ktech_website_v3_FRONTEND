@@ -1,0 +1,119 @@
+.header {
+    background-image: none;
+    min-height: 50px;
+    max-height: 100px !important;
+    
+}
+
+.services-1 {
+    min-height: 350px;
+    
+    background-color: #1A14C6;
+}
+
+.service-item {
+    padding: 1.3rem 0;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    min-height: 400px;
+    place-items: center;
+}
+.service-item .white {
+    color: white;
+}
+
+.service-item .service-image-box {
+    flex-basis: 40%;
+}
+.service-image {
+    width: 20%;
+    height: auto;
+}
+
+.image-box {
+    
+}
+
+.service-item .description-box {
+    flex-basis: 50%;
+    text-align: left;
+}
+
+.service-item p  {
+    padding: 0;
+    line-height: 1.8rem;
+    font-size: 1.12rem;
+    font-weight: 370;
+    margin:1.5rem 0;
+}
+.service1 p {
+    color: #00F507;
+}
+.services .container {
+    display: block;
+}
+
+.service2 .service-image{
+    order: 1;
+}
+.service2 .description-box {
+    order: 0;
+    color: #1A14C6;
+}
+.service2 .subtitle {
+    color: #1A14C6;
+}
+
+
+.service3 .description-box, .service4 .description-box {
+    order: 0;
+    color: #1A14C6;
+}
+.service4 .subtitle {
+    color: #1A14C6;
+}
+
+.service4 .service-image{
+    order: 1;
+}
+.service2 .description-box {
+    order: 0;
+    color: #1A14C6;
+}
+
+.advantages {
+    background-color: #00F507;
+    padding:5rem 0;
+}
+
+.advantages .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #1A14C6;
+    
+}
+
+.advantages .advantages-list {
+    
+}
+
+.advantages .container {
+    width: 65%;
+}
+.advantages .container h1 {
+    
+    flex-basis: 40%;
+}
+.advantages .container .advantages-list {
+    flex-basis: 30%;
+}
+
+.advantages-list ul {
+    list-style-type: none;
+}
+.advantages-list li {
+    font-size: 1.5rem;
+    font-weight: 300;
+}
