@@ -1,7 +1,7 @@
 .header {
     background-image: url(../assets/images/Ellipse.png), url(../assets/images/Trace.png), linear-gradient(#F3F3F3, #F3F3F3);
     background-size: 50% auto, 70% auto, cover;
-    background-position: -40% 800%, 200% 50%, center;
+    background-position: -40% 500%, 200% 50%, center;
     background-repeat: no-repeat, no-repeat;
     min-height: 400px;
 }

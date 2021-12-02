@@ -1,8 +1,9 @@
 .header {
-    background-image: none;
-    background-color: #F3F3F3;
+    background-image: url(../assets/images/Ellipse.png), linear-gradient(#F3F3F3, #F3F3F3);
+    background-size: 50% auto, cover;
+    background-position: -40% -300%, center;
+    background-repeat: no-repeat, no-repeat;
 }
-
 
 h1.title {
     margin-bottom: 4rem;
