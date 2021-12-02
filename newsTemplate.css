@@ -1,0 +1,203 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: grid;
+    place-items: center;
+}
+.mainContent{
+    min-width: 300px;
+    min-height: 60rem;
+    height: auto;
+    width: 100%;
+    background-color:#f6f6f6;
+    display: grid;
+}
+/*header part*/
+header{
+    min-height: 10rem;
+    display: grid;
+    background-color: #43474a;
+    padding-left: 5%;
+}
+header .logo{
+    padding-top: 5%;
+    align-self: start;
+    color: white;
+    text-transform: uppercase;
+}
+.content{
+    background-color: #f6f6f6;
+    position: relative;
+    display: grid;
+    min-height: 60rem;
+}
+
+/*first block of content*/
+.first{
+    display: grid;
+    place-items: center;
+    padding-top: 5%;
+    width: 90%;
+    justify-self: center;
+    background-color: white;
+    position: absolute;
+    top: -4rem;
+    border-top: 5px solid #62a9d3;
+}
+.first h1{
+    margin-bottom: 1rem;
+}
+.first .social{
+    margin-top: 2rem;
+    height: 3rem;
+    width: 100%;
+    display: grid;
+    background-color: #62a9d3;
+    color: #004e75;
+    display: grid;
+    grid-template-columns: 1fr auto auto;
+}
+.social p{
+    align-self: center;
+    padding-left: 5%;
+    color: black;
+}
+.social a{
+    align-self: center;
+    margin-right: 1rem;
+}
+
+/*secod part of content*/
+
+.second{
+    position: absolute;
+    top: 12rem;
+    min-height: 15rem;
+    width: 90%;
+    justify-self: center;
+    /*change background color by an image of your choice*/
+    background-color:#62a9d3;
+}
+.second .text{
+    background-color: black;
+    width: 100%;
+    height: 3rem;
+    position: absolute;
+    bottom:0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.second .text h1{
+    font-size: 20px;
+    padding-left: 5%;
+    align-self: center;
+    color: white;
+}
+button{
+    width: 50%;
+    height: 2rem;
+    align-self: center;
+    justify-self: end;
+    margin-right: 5%;
+    background-color: #62a9d3;
+    border: none;
+    color: white;
+    font-weight: bold;
+}
+
+/*third part of the content*/
+
+.third{
+    position: absolute;
+    top:30rem;
+    width: 90%;
+    justify-self: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 1.5rem;
+    grid-row-gap: 1.5rem;
+}
+.third .business{
+    padding: 5%;
+    display: grid;
+    background-color: white;
+}
+.third .business h1,.third .business p{
+    margin-bottom: 1rem;
+}
+.third .business button{
+    justify-self: end;
+}
+.third .businessEnd{
+    padding: 5%;
+    grid-column: 1/3;
+    background-color: white;
+}
+.third .businessEnd h1{
+    margin-bottom: 1rem;
+}
+.third .businessEnd p{
+    margin-bottom: 1rem;
+}
+.third .businessEnd a{
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/*footer part*/
+footer{
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+    background-color:#f6f6f6;
+    display: grid;
+    width: 90%;
+    place-items: center;
+    justify-self: center;
+    
+}
+footer .logo{
+    border-top: 2px solid #e5e5e5;
+    width: 100%;
+    display: grid;
+    place-items: center;
+    padding-top: 2rem;
+}
+footer .adresse{
+    display: grid;
+    place-items: center;
+}
+
+/*mobile responsive*/
+@media (max-width:504px){
+    .content{
+        min-height: 73rem;
+    }
+    .content h1{
+        font-size: 130%;
+    }
+    .content p{
+        font-size: 100%;
+    }
+    .first p{
+        padding-left: 5%;
+    }
+    .second button{
+        font-size: 90%;
+    }
+    .third .business{
+        grid-column: 1/3;
+    }
+}
+@media (max-width:376px){
+    .second button{
+        width: 80%;
+    }
+}
+@media (min-width:1175px){
+    .second{
+        top: 13rem;
+    }
+}
