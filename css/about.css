@@ -1,3 +1,11 @@
+#main {
+    background-image: url(../assets/images/Ellipse.png);
+    background-size: 30% auto;
+    background-position: 110% 70%;
+    background-repeat: no-repeat;
+
+}
+
 .header {
     background-image: url(../assets/images/Ellipse.png), linear-gradient(#F3F3F3, #F3F3F3);
     background-size: 50% auto, cover;
