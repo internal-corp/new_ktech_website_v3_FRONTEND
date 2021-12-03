@@ -29,6 +29,11 @@ h1.title {
     color: #1A14C6;
 } 
 
+.mission-list {
+    margin-left: 3rem;
+    font-weight: 350;
+}
+
 .subtitle-box .subtitle {
     font-size: 1.9rem;
 }

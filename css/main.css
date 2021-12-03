@@ -46,10 +46,10 @@
 .who-we-work-with {
     padding-top: 3rem;
     background-image: url(../assets/images/elispe.png), linear-gradient(#1A14C6, #1A14C6);
-    background-position: 10% 400%, center;
+    background-position: 10% -150%, center;
     background-size: 25%, cover;
     background-repeat: no-repeat, no-repeat;
-    min-height: 400px;
+    min-height: 200px;
 }
 
 .who-we-work-with .container {
@@ -139,6 +139,9 @@
     text-align: right;
 }
 
+#country-feature {
+    background-color: #F3F3F3;
+}
 
 /* Services  */
 .services {
