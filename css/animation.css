@@ -1,0 +1,26 @@
+.anim-rotation {
+    animation: animation-rotation infinite 20s linear;
+}
+
+.anim-come-from-right {
+    position: relative;
+    animation: animation-from-right 3s linear;
+}
+
+@keyframes animation-rotation {
+    from {
+        transform: rotate(0deg);
+      }
+      to {
+        transform: rotate(360deg);
+      }
+}
+
+@keyframes animation-from-right {
+    from {
+        right: -10rem;
+      }
+      to {
+        right: 0rem;
+      }
+}
