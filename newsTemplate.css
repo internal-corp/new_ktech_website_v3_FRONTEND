@@ -2,32 +2,55 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
 }
 body{
     display: grid;
     place-items: center;
+    background-color: #e2e2e2;
+}
+
+
+
+header .header{
+    margin-top: .5rem;
+    background-color: white;
+    padding: .5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .brand-logo {
+    width: 120px;
+    flex-basis: 40%;
+    height: auto;
+
+}
+
+.slogan {
+    font-style: italic;
+    flex-basis: 40%;
+    font-size: .9rem;
+    font-weight: 500;
+    text-transform: none;
+    line-height: 1.1rem;
 }
 .mainContent{
-    min-width: 300px;
-    min-height: 60rem;
     height: auto;
     width: 100%;
+    max-width: 702px;
     background-color:#f6f6f6;
     display: grid;
 }
 /*header part*/
 header{
-    min-height: 10rem;
     display: grid;
-    background-color: #43474a;
-    padding-left: 5%;
+    background-color: grey;
+    padding:1.5rem 4.5% 3rem 5.1%;
 }
-header .logo{
-    padding-top: 5%;
-    align-self: start;
-    color: white;
-    text-transform: uppercase;
-}
+
+
 .content{
     background-color: #f6f6f6;
     position: relative;
@@ -35,143 +58,113 @@ header .logo{
     min-height: 60rem;
 }
 
-/*first block of content*/
-.first{
-    display: grid;
-    place-items: center;
-    padding-top: 5%;
-    width: 90%;
-    justify-self: center;
-    background-color: white;
-    position: absolute;
-    top: -4rem;
-    border-top: 5px solid #62a9d3;
-}
-.first h1{
-    margin-bottom: 1rem;
-}
-.first .social{
-    margin-top: 2rem;
-    height: 3rem;
-    width: 100%;
-    display: grid;
-    background-color: #62a9d3;
-    color: #004e75;
-    display: grid;
-    grid-template-columns: 1fr auto auto;
-}
-.social p{
-    align-self: center;
-    padding-left: 5%;
-    color: black;
-}
-.social a{
-    align-self: center;
-    margin-right: 1rem;
-}
 
 /*secod part of content*/
 
 .second{
-    position: absolute;
-    top: 12rem;
-    min-height: 15rem;
+    position:relative;
+    top: -2rem;
     width: 90%;
+     max-height: 300px;
     justify-self: center;
-    /*change background color by an image of your choice*/
-    background-color:#62a9d3;
+    overflow: hidden;
+}
+
+.full-image {
+    width: 100%;
 }
 .second .text{
     background-color: black;
+    padding: .5rem;
     width: 100%;
-    height: 3rem;
     position: absolute;
     bottom:0;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    justify-content: space-between;
 }
 .second .text h1{
-    font-size: 20px;
-    padding-left: 5%;
+    padding-left: .3rem;
+    font-size: 1.3rem;
     align-self: center;
     color: white;
 }
-button{
-    width: 50%;
-    height: 2rem;
-    align-self: center;
-    justify-self: end;
-    margin-right: 5%;
-    background-color: #62a9d3;
-    border: none;
+.button{
+    flex-basis: 150px;
+    text-decoration: none;
+    background-color: #1A14C6;
     color: white;
+    display: grid;
+    place-items: center;
     font-weight: bold;
 }
 
 /*third part of the content*/
 
 .third{
-    position: absolute;
-    top:30rem;
     width: 90%;
     justify-self: center;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-column-gap: 1.5rem;
-    grid-row-gap: 1.5rem;
 }
 .third .business{
     padding: 5%;
-    display: grid;
+    margin-bottom: 1rem;
     background-color: white;
 }
-.third .business h1,.third .business p{
-    margin-bottom: 1rem;
+.business h1 {
+    font-size: 1.3rem;
 }
+
+.business .infos {
+    font-weight: 300;
+}
+
+.news-image {
+    float: left;
+    width: 60%;
+    margin-right: 1rem;
+    height:auto;
+}
+
+.info-content {
+    text-align: justify;
+}
+
+
+.infos {
+    font-size: .9rem;
+}
+
+.business .date-of-news ,.third .business p{
+    margin-bottom: 1rem;
+    line-height: 1.5rem;
+}
+
+.business .date-of-news {
+    position: relative;
+    top: -7px;
+    font-weight: 350;
+    font-size: .8rem;
+    font-style: italic;
+}
+
 .third .business button{
     justify-self: end;
-}
-.third .businessEnd{
-    padding: 5%;
-    grid-column: 1/3;
-    background-color: white;
-}
-.third .businessEnd h1{
-    margin-bottom: 1rem;
-}
-.third .businessEnd p{
-    margin-bottom: 1rem;
-}
-.third .businessEnd a{
-    text-decoration: none;
-    font-weight: bold;
 }
 
 /*footer part*/
 footer{
-    padding-top: 5rem;
-    padding-bottom: 3rem;
-    background-color:#f6f6f6;
-    display: grid;
-    width: 90%;
-    place-items: center;
-    justify-self: center;
+    padding: .8rem 0 1.5rem 0;
     
 }
-footer .logo{
-    border-top: 2px solid #e5e5e5;
-    width: 100%;
-    display: grid;
-    place-items: center;
-    padding-top: 2rem;
-}
 footer .adresse{
+    font-size: .8rem;
+    font-weight: 700;
+    color: gray;
     display: grid;
     place-items: center;
 }
 
 /*mobile responsive*/
-@media (max-width:504px){
+/* @media (max-width:504px){
     .content{
         min-height: 73rem;
     }
@@ -190,14 +183,9 @@ footer .adresse{
     .third .business{
         grid-column: 1/3;
     }
-}
+} */
 @media (max-width:376px){
     .second button{
         width: 80%;
-    }
-}
-@media (min-width:1175px){
-    .second{
-        top: 13rem;
     }
 }
