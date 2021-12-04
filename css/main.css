@@ -83,10 +83,12 @@
 
 .who-we-work-with .images {
     text-align: right;
+    position: relative;
+    top:-1.5rem;
 }
 
 .who-we-work-with .images img {
-    width: 80%;
+    width: 70%;
     height: auto;
 }
 
