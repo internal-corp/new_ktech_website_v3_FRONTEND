@@ -143,6 +143,30 @@ form {
     height: 100%;
 }
 
+.custom-link {
+    color: #1A14C6;
+}
+
+.shadow-hover {
+    position: relative;
+    top: 0;
+    transition: top 500ms ease-in-out;
+}
+
+.shadow-hover:hover {
+    top: -1rem;
+    box-shadow: 0 2px 10px rgba(128, 128, 128, 0.116);
+}
+
+.clipable {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4; /* number of lines to show */
+            line-clamp: 4; 
+    -webkit-box-orient: vertical;
+ }
+
 /* footer  */
 .footer .container{
     display: grid;
