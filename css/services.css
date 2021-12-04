@@ -7,8 +7,6 @@
 
 .services-1 {
     min-height: 350px;
-    
-    background-color: #1A14C6;
 }
 
 .service-item {
@@ -39,12 +37,13 @@
 .service-item p  {
     padding: 0;
     line-height: 1.8rem;
+    text-align:justify;
     font-size: 1.12rem;
     font-weight: 370;
     margin:1.5rem 0;
 }
 .service1 p {
-    color: #00F507;
+    color: #1A14C6;
 }
 .services .container {
     display: block;
