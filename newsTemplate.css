@@ -140,6 +140,8 @@ header{
 
 .business .date-of-news {
     position: relative;
+    display: block;
+    margin-bottom: .7rem;
     top: -7px;
     font-weight: 350;
     font-size: .8rem;
