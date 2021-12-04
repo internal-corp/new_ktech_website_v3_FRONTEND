@@ -46,7 +46,7 @@ header .header{
 /*header part*/
 header{
     display: grid;
-    background-color: grey;
+    background-color: white;
     padding:1.5rem 4.5% 3rem 5.1%;
 }
 
