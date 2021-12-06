@@ -116,3 +116,24 @@
     margin-bottom: .7rem;
     font-weight: 300;
 }
+
+/*mobile part*/
+
+@media (max-width:750px) {
+    .service-item {
+        display: grid;
+    }
+    .service-image {
+        width: 50%;
+    }
+    .service4 .service-image {
+        order: 0;
+        margin-bottom: 1.5rem;
+    }
+    .advantages .container {
+        display: grid;
+        place-content: center;
+        grid-row-gap: 1.5rem;
+    }
+
+}

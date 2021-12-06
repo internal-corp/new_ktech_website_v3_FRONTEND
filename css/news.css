@@ -57,3 +57,20 @@
     font-weight: 300;
     text-align: justify;
 }
+
+/*mobile part*/
+
+@media (max-width:750px) {
+    .news-list .container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+}
+@media (max-width:426px) {
+    .news-list .container {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+}
