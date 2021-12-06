@@ -3,7 +3,7 @@
 .first{
     display:  grid;
     grid-template-columns: 1fr 2fr;
-    background-color: #1a14c6;
+    background-color: white;
 }
 .image{
     display:grid;
@@ -28,6 +28,7 @@
 }
 .emc p{
     color: #00f346;
+    text-align: justify;
 }
 .first .emc .P{
     margin-top: 2rem;
@@ -50,6 +51,8 @@
 }
 .rf .text p{
     color: #5a56d5;
+    text-align: justify;
+
 }
 .rf  .text p:last-child{
     margin-top: 2rem;
@@ -75,6 +78,8 @@
 }
 .safety .text p{
     color: #5a56d5;
+    text-align: justify;
+
 }
 .safety .image{
     align-self: center;
