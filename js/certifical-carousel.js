@@ -1,6 +1,6 @@
 const certificatImageBox=document.querySelector('#certificat-carousel');
 
-const imagesLenght=3;
+const imagesLenght=5;
 let index=2;
 
 (()=>{
@@ -9,7 +9,7 @@ let index=2;
         const path=`assets/certificats/certificat-${index}.jpg`;
         certificatImageBox.setAttribute('src',path);
         index++;
-        if(index>4){
+        if(index>imagesLenght){
             index=1;
         }
     },5000);
