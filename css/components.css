@@ -28,6 +28,30 @@ a {
     background-color: transparent;
 }
 
+.message {
+    margin-top: .7rem;
+    border-radius: 3rem;
+    padding: .7rem 1.3rem;
+    display: inline-block;
+    width: 50%;
+    opacity: 1;
+    transition: opacity 700ms ease-in-out;
+}
+
+.success {
+    background-color: rgba(9, 250, 9, 0.322);
+}
+.warning {
+    background-color: rgba(250, 146, 9, 0.322);
+}
+
+.disabled {
+    visibility:hidden;
+}
+.enabled {
+    visibility: visible;
+}
+
 .brand-logo {
     width: 150px;
     height: auto;
@@ -73,6 +97,7 @@ a {
     color: white;
     background-color: #1A14C6;
     box-shadow: 0 2px 6px #6e6e6e8f;
+    cursor: pointer;
 }
 
 .button :hover, .newsletter-button input :hover{

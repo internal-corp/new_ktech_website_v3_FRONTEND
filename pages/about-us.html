@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="/css/reset.css">
     <link rel="stylesheet" href="/css/components.css">
     <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/font-awesome.min.css">
     <link rel="stylesheet" href="/css/about.css">
     <title>About us</title>
 </head>
@@ -138,8 +139,11 @@
                             <input type="email" name="email" placeholder="Enter your email address"
                                 class="email-field">
                         </div>
-                        <input type="submit" name="submit" class="button subscribe-button" value="Contact us">
+                        <button class="button subscribe-button" type="submit">Contact us</button>
                     </form>
+                    <div class="message disabled">
+                        <span>Successfully  sent <br>We're going to contact you in a while</span>
+                    </div>
             </div>
             </div>
         </section>
@@ -161,7 +165,7 @@
                     </div>
                     <div class="social-links">
                         <ul>
-                            <li><a href="#"><img src="/assets/images/linkedind@2x.png" class="social-link"
+                            <li><a href="https://ci.linkedin.com/company/konan-technologies-ktech"><img src="/assets/images/linkedind@2x.png" class="social-link"
                                         alt="Link to Konan Technologies Linkedin"></a></li>
                         </ul>
                     </div>
@@ -170,5 +174,7 @@
         </footer>
     </div>
     <script src="/js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js" defer></script>
+    <script src="/js/send-newsletter-email.js"></script>
 </body>
 </html>
