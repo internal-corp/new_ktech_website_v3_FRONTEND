@@ -68,6 +68,10 @@ a {
     justify-content: start;
     align-items: center;
 }
+.navbar .menu, .close, .suscribeBtn-2, .modal .main-links{
+    display: none;  
+}
+
 
 .navbar .main-links ul{
     display: flex;
@@ -303,9 +307,13 @@ form {
         grid-template-rows: auto 1fr 1fr;
         grid-row-gap: 1.5rem;
     }
-    .main-links {
-        margin-left: 0 !important;
-        display: grid;
+    .main-links-1,.suscribeBtn-1 {
+        /* margin-left: 0 !important;
+        display: grid; */
+        display: none !important;
+    }
+    .navbar .menu, .close, .suscribeBtn-2, .modal .main-links{
+        display: inherit;  
     }
     .navbar .main-links ul{
         display: grid;
